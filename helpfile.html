@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>Help:</title>
+
+<style type="text/css">
+body, td {
+   font-family: sans-serif;
+   background-color: white;
+   font-size: 12px;
+   margin: 8px;
+}
+
+tt, code, pre {
+   font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
+}
+
+h1 { 
+   font-size:2.2em; 
+}
+
+h2 { 
+   font-size:1.8em; 
+}
+
+h3 { 
+   font-size:1.4em; 
+}
+
+h4 { 
+   font-size:1.0em; 
+}
+
+h5 { 
+   font-size:0.9em; 
+}
+
+h6 { 
+   font-size:0.8em; 
+}
+
+a:visited {
+   color: rgb(50%, 0%, 50%);
+}
+
+pre {	
+   margin-top: 0;
+   max-width: 95%;
+   border: 1px solid #ccc;
+   white-space: pre-wrap;
+}
+
+pre code {
+   display: block; padding: 0.5em;
+}
+
+code.r, code.cpp {
+   background-color: #F8F8F8;
+}
+
+table, td, th {
+  border: none;
+}
+
+blockquote {
+   color:#666666;
+   margin:0;
+   padding-left: 1em;
+   border-left: 0.5em #EEE solid;
+}
+
+hr {
+   height: 0px;
+   border-bottom: none;
+   border-top-width: thin;
+   border-top-style: dotted;
+   border-top-color: #999999;
+}
+
+@media print {
+   * { 
+      background: transparent !important; 
+      color: black !important; 
+      filter:none !important; 
+      -ms-filter: none !important; 
+   }
+
+   body { 
+      font-size:12pt; 
+      max-width:100%; 
+   }
+       
+   a, a:visited { 
+      text-decoration: underline; 
+   }
+
+   hr { 
+      visibility: hidden;
+      page-break-before: always;
+   }
+
+   pre, blockquote { 
+      padding-right: 1em; 
+      page-break-inside: avoid; 
+   }
+
+   tr, img { 
+      page-break-inside: avoid; 
+   }
+
+   img { 
+      max-width: 100% !important; 
+   }
+
+   @page :left { 
+      margin: 15mm 20mm 15mm 10mm; 
+   }
+     
+   @page :right { 
+      margin: 15mm 10mm 15mm 20mm; 
+   }
+
+   p, h2, h3 { 
+      orphans: 3; widows: 3; 
+   }
+
+   h2, h3 { 
+      page-break-after: avoid; 
+   }
+}
+
+</style>
+
+
+
+
+
+</head>
+
+<body>
+<h1>Help:</h1>
+
+<p>This web application is based on application of machine learning on famous <strong>Fisher&#39;s Iris data set</strong>.This data set has 5 features i.e 4 predictor variables(Petal.Length,Petal.Width, Sepal.Length, Sepal.Width) and one response variable(Species).</p>
+
+<p>This application has 5 tabs(sections) and 
+they are:    </p>
+
+<ol>
+<li><p><strong>Predict Species</strong> : This tab is used to predict species based on user&#39;s input. The user has to choose values using sliders for given fields:<br/>
+  . Sepal Length<br/>
+  . Sepal Width<br/>
+  . Petal Length<br/>
+  . Petal Width  </p>
+
+<p>After chosing these values, when user clicks &#39;Predict!&#39; button, the predicted species for user&#39;s input will be displayed on right side of the same tab.</p></li>
+<li><p><strong>Iris Data</strong>   : This tab helps user to browse Iris dataset.User can click on any column&#39;s header to sort the column. User can  navigate through pages.User can choose number of records per page to be displayed on the top-left. User can search any value in  the data  through search field on top-right. </p></li>
+<li><p><strong>Analysis</strong> : This tab displays summary and scatterplot of iris data set.</p></li>
+<li><p><strong>Prediction Model</strong>   :  This tab displays:<br/>
+. the machine learning model(random forest) used for this application<br/>
+. a property table of model prediction for out of sample data showing how much percentage of each species are misclassified in out of sample data.<br/>
+. a plot displaying important variable for the model    </p></li>
+<li><p><strong>Documentation</strong>  :  This tab helps user to use this application.       </p></li>
+</ol>
+
+<p>User can navigate to any tab by clicking on the tab.</p>
+
+</body>
+
+</html>
+
